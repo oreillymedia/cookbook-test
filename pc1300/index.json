@@ -1,0 +1,83 @@
+{
+  "title": "Python: Utility Scripting & System Admin",
+  "description": "15 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Accepting Script Input via Redirection, Pipes, or Input Files",
+        "text": "chapter_13_utility_r1.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Terminating a Program with an Error Message",
+        "text": "chapter_13_utility_r2.md"
+      },
+      {
+        "title": "Parsing Command-Line Options",
+        "text": "chapter_13_utility_r3.md"
+      },
+      {
+        "title": "Prompting for a Password at Runtime",
+        "text": "chapter_13_utility_r4.md"
+      },
+      {
+        "title": "Getting the Terminal Size",
+        "text": "chapter_13_utility_r5.md"
+      },
+      {
+        "title": "Executing an External Command and Getting Its Output",
+        "text": "chapter_13_utility_r6.md"
+      },
+      {
+        "title": "Copying or Moving Files and Directories",
+        "text": "chapter_13_utility_r7.md"
+      },
+      {
+        "title": "Creating and Unpacking Archives",
+        "text": "chapter_13_utility_r8.md"
+      },
+      {
+        "title": "Finding Files by Name",
+        "text": "chapter_13_utility_r9.md"
+      },
+      {
+        "title": "Reading Configuration Files",
+        "text": "chapter_13_utility_r10.md"
+      },
+      {
+        "title": "Adding Logging to Simple Scripts",
+        "text": "chapter_13_utility_r11.md"
+      },
+      {
+        "title": "Adding Logging to Libraries",
+        "text": "chapter_13_utility_r12.md"
+      },
+      {
+        "title": "Making a Stopwatch Timer",
+        "text": "chapter_13_utility_r13.md"
+      },
+      {
+        "title": "Putting Limits on Memory and CPU Usage",
+        "text": "chapter_13_utility_r14.md"
+      },
+      {
+        "title": "Launching a Web Browser",
+        "text": "chapter_13_utility_r15.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

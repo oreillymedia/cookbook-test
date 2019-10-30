@@ -1,0 +1,127 @@
+{
+  "title": "Python: Files & I/O",
+  "description": "21 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Reading and Writing Text Data",
+        "text": "pc0501.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Printing to a File",
+        "text": "pc0502.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Printing with a Different Separator or Line Ending",
+        "text": "pc0503.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reading and Writing Binary Data",
+        "text": "pc0504.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Writing to a File That Doesn’t Already Exist",
+        "text": "pc0505.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Performing I/O Operations on a String",
+        "text": "pc0506.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reading and Writing Compressed Datafiles",
+        "text": "pc0507.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating Over Fixed-Sized Records",
+        "text": "pc0508.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reading Binary Data into a Mutable Buffer",
+        "text": "pc0509.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Memory Mapping Binary Files",
+        "text": "pc0510.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Manipulating Pathnames",
+        "text": "pc0411.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Testing for the Existence of a File",
+        "text": "pc0512.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Getting a Directory Listing",
+        "text": "pc0513.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Bypassing Filename Encoding",
+        "text": "pc0514.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Printing Bad Filenames",
+        "text": "pc0515.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Adding or Changing the Encoding of an Already Open File",
+        "text": "pc0516.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Writing Bytes to a Text File",
+        "text": "pc0517.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Wrapping an Existing File Descriptor As a File Object",
+        "text": "pc0518.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Making Temporary Files and Directories",
+        "text": "pc0519.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Communicating with Serial Ports",
+        "text": "pc0520.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Serializing Python Objects",
+        "text": "pc0521.md",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

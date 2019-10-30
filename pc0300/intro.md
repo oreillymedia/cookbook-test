@@ -1,0 +1,3 @@
+# Getting Started
+
+Performing mathematical calculations with integers and floating-point numbers is easy in Python. However, if you need to perform calculations with fractions, arrays, or dates and times, a bit more work is required. The focus of these scenarios is on such topics.

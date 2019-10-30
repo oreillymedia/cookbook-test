@@ -1,0 +1,122 @@
+{
+  "title": "Python: Strings & Text",
+  "description": "20 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Splitting Strings on Any of Multiple Delimiters",
+        "text": "pc0201.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Matching Text at the Start or End of a String",
+        "text": "pc0202.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Matching Strings Using Shell Wildcard Patterns",
+        "text": "pc0203.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Matching and Searching for Text Patterns",
+        "text": "pc0204.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Searching and Replacing Text",
+        "text": "pc0205.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Searching and Replacing Case-Insensitive Text",
+        "text": "pc0206.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Specifying a Regular Expression for the Shortest Match",
+        "text": "pc0207.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Writing a Regular Expression for Multiline Patterns",
+        "text": "pc0208.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Normalizing Unicode Text to a Standard Representation",
+        "text": "pc0209.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Working with Unicode Characters in Regular Expressions",
+        "text": "pc0210.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Stripping Unwanted Characters from Strings",
+        "text": "pc0211.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Sanitizing and Cleaning Up Text",
+        "text": "pc0212.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Aligning Text Strings",
+        "text": "pc0213.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Combining and Concatenating Strings",
+        "text": "pc0214.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Interpolating Variables in Strings",
+        "text": "pc0215.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reformatting Text to a Fixed Number of Columns",
+        "text": "pc0216.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Handling HTML and XML Entities in Text",
+        "text": "pc0217.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Tokenizing Text",
+        "text": "pc0218.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Writing a Simple Recursive Descent Parser",
+        "text": "pc0219.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Performing Text Operations on Byte Strings",
+        "text": "pc0220.md",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

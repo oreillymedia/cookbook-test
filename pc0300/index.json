@@ -1,0 +1,102 @@
+{
+  "title": "Python: Numbers, Dates & Times",
+  "description": "16 Recipes from Python Cookbook, 3e",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Rounding Numerical Values",
+        "text": "pc0301",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Performing Accurate Decimal Calculations",
+        "text": "pc0302",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Formatting Numbers for Output",
+        "text": "pc0303",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Working with Binary, Octal, and Hexadecimal Integers",
+        "text": "pc0304",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Packing and Unpacking Large Integers from Bytes",
+        "text": "pc0305",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Performing Complex-Valued Math",
+        "text": "pc0306",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Working with Infinity and NaNs",
+        "text": "pc0307",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Calculating with Fractions",
+        "text": "pc0308",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Calculating with Large Numerical Arrays",
+        "text": "pc0309",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Performing Matrix and Linear Algebra Calculations",
+        "text": "pc0310",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Picking Things at Random",
+        "text": "pc0311",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Converting Days to Seconds, and Other Basic Time Conversions",
+        "text": "pc0312",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Determining Last Friday’s Date",
+        "text": "pc0313",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Finding the Date Range for the Current Month",
+        "text": "pc0314",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Converting Strings into Datetimes",
+        "text": "pc0315",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Manipulating Dates Involving Time Zones",
+        "text": "pc0316",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

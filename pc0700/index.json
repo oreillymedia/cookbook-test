@@ -1,0 +1,82 @@
+{
+  "title": "Python: Functions",
+  "description": "12 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Writing Functions That Accept Any Number of Arguments",
+        "text": "chapter_7_functions_r1.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Writing Functions That Only Accept Keyword Arguments",
+        "text": "chapter_7_functions_r2.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Attaching Informational Metadata to Function Arguments",
+        "text": "chapter_7_functions_r3.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Returning Multiple Values from a Function",
+        "text": "chapter_7_functions_r4.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Defining Functions with Default Arguments",
+        "text": "chapter_7_functions_r5.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Defining Anonymous or Inline Functions",
+        "text": "chapter_7_functions_r6.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Capturing Variables in Anonymous Functions",
+        "text": "chapter_7_functions_r7.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Making an N-Argument Callable Work As a Callable with Fewer Arguments",
+        "text": "chapter_7_functions_r8.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Replacing Single Method Classes with Functions",
+        "text": "chapter_7_functions_r9.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Carrying Extra State with Callback Functions",
+        "text": "chapter_7_functions_r10.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Inlining Callback Functions",
+        "text": "chapter_7_functions_r11.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Accessing Variables Defined Inside a Closure",
+        "text": "chapter_7_functions_r12.md",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Python: Iterators & Generators",
+  "description": "16 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Manually Consuming an Iterator",
+        "text": "pc0401.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Delegating Iteration",
+        "text": "pc0402.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating New Iteration Patterns with Generators",
+        "text": "pc0403.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Implementing the Iterator Protocol",
+        "text": "pc0404.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating in Reverse",
+        "text": "pc0405.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Defining Generator Functions with Extra State",
+        "text": "pc0406.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Taking a Slice of an Iterator",
+        "text": "pc0407.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Skipping the First Part of an Iterable",
+        "text": "pc0408.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating Over All Possible Combinations or Permutations",
+        "text": "pc0409.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating Over the Index-Value Pairs of a Sequence",
+        "text": "pc0410.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating Over Multiple Sequences Simultaneously",
+        "text": "pc0411.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating on Items in Separate Containers",
+        "text": "pc0412.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating Data Processing Pipelines",
+        "text": "pc0413.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Flattening a Nested Sequence",
+        "text": "pc0414.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Iterating in Sorted Order Over Merged Sorted Iterables",
+        "text": "pc0415.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Replacing Infinite while Loops with an Iterator",
+        "text": "pc0416.md",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Python: Metaprogramming",
+  "description": "25 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "3 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Putting a Wrapper Around a Function",
+        "text": "chapter_9_metaprogramming_r0.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Preserving Function Metadata When Writing Decorators",
+        "text": "chapter_9_metaprogramming_r1.md"
+      },
+      {
+        "title": "Unwrapping a Decorator",
+        "text": "chapter_9_metaprogramming_r2.md"
+      },
+      {
+        "title": "Defining a Decorator That Takes Arguments",
+        "text": "chapter_9_metaprogramming_r3.md"
+      },
+      {
+        "title": "Defining a Decorator with User Adjustable Attributes",
+        "text": "chapter_9_metaprogramming_r4.md"
+      },
+      {
+        "title": "Defining a Decorator That Takes an Optional Argument",
+        "text": "chapter_9_metaprogramming_r5.md"
+      },
+      {
+        "title": "Enforcing Type Checking on a Function Using a Decorator",
+        "text": "chapter_9_metaprogramming_r6.md"
+      },
+      {
+        "title": "Defining Decorators As Part of a Class",
+        "text": "chapter_9_metaprogramming_r7.md"
+      },
+      {
+        "title": "Defining Decorators As Classes",
+        "text": "chapter_9_metaprogramming_r8.md"
+      },
+      {
+        "title": "Applying Decorators to Class and Static Methods",
+        "text": "chapter_9_metaprogramming_r9.md"
+      },
+      {
+        "title": "Writing Decorators That Add Arguments to Wrapped Functions",
+        "text": "chapter_9_metaprogramming_r10.md"
+      },
+      {
+        "title": "Using Decorators to Patch Class Definitions",
+        "text": "chapter_9_metaprogramming_r11.md"
+      },
+      {
+        "title": "Using a Metaclass to Control Instance Creation",
+        "text": "chapter_9_metaprogramming_r12.md"
+      },
+      {
+        "title": "Capturing Class Attribute Definition Order",
+        "text": "chapter_9_metaprogramming_r0.md"
+      },
+      {
+        "title": "Defining a Metaclass That Takes Optional Arguments",
+        "text": "chapter_9_metaprogramming_r13.md"
+      },
+      {
+        "title": "9.16. Enforcing an Argument Signature on *args and **kwargs",
+        "text": "chapter_9_metaprogramming_r14.md"
+      },
+      {
+        "title": "Enforcing Coding Conventions in Classes",
+        "text": "chapter_9_metaprogramming_r15.md"
+      },
+      {
+        "title": "Defining Classes Programmatically",
+        "text": "chapter_9_metaprogramming_r16.md"
+      },
+      {
+        "title": "Initializing Class Members at Definition Time",
+        "text": "chapter_9_metaprogramming_r17.md"
+      },
+      {
+        "title": "Implementing Multiple Dispatch with Function Annotations",
+        "text": "chapter_9_metaprogramming_r18.md"
+      },
+      {
+        "title": "Avoiding Repetitive Property Methods",
+        "text": "chapter_9_metaprogramming_r19.md"
+      },
+      {
+        "title": "Defining Context Managers the Easy Way",
+        "text": "chapter_9_metaprogramming_r20.md"
+      },
+      {
+        "title": "Executing Code with Local Side Effects",
+        "text": "chapter_9_metaprogramming_r21.md"
+      },
+      {
+        "title": "Parsing and Analyzing Python Source",
+        "text": "chapter_9_metaprogramming_r22.md"
+      },
+      {
+        "title": "Disassembling Python Byte Code",
+        "text": "chapter_9_metaprogramming_r23.md"
+      },
+      {
+        "title": "Disassembling Python Byte Code",
+        "text": "chapter_9_metaprogramming_r24.md"
+      },
+      {
+        "title": "Disassembling Python Byte Code",
+        "text": "chapter_9_metaprogramming_r25.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

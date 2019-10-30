@@ -1,0 +1,147 @@
+{
+  "title": "Python: Classes & Objects",
+  "description": "25 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "3 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Changing the String Representation of Instances",
+        "text": "chapter_8_classes_r1.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Customizing String Formatting",
+        "text": "chapter_8_classes_r2.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Making Objects Support the Context-Management Protocol",
+        "text": "chapter_8_classes_r3.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Saving Memory When Creating a Large Number of Instances",
+        "text": "chapter_8_classes_r4.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Encapsulating Names in a Class",
+        "text": "chapter_8_classes_r5.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating Managed Attributes",
+        "text": "chapter_8_classes_r6.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Calling a Method on a Parent Class",
+        "text": "chapter_8_classes_r7.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Extending a Property in a Subclass",
+        "text": "chapter_8_classes_r8.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating a New Kind of Class or Instance Attribute",
+        "text": "chapter_8_classes_r9.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Using Lazily Computed Properties",
+        "text": "chapter_8_classes_r10.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Simplifying the Initialization of Data Structures",
+        "text": "chapter_8_classes_r11.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Defining an Interface or Abstract Base Class",
+        "text": "chapter_8_classes_r12.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Implementing a Data Model or Type System",
+        "text": "chapter_8_classes_r13.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Implementing Custom Containers",
+        "text": "chapter_8_classes_r14.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Delegating Attribute Access",
+        "text": "chapter_8_classes_r15.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Defining More Than One Constructor in a Class",
+        "text": "chapter_8_classes_r16.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating an Instance Without Invoking init",
+        "text": "chapter_8_classes_r17.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Extending Classes with Mixins",
+        "text": "chapter_8_classes_r18.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Implementing Stateful Objects or State Machines",
+        "text": "chapter_8_classes_r19.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Calling a Method on an Object Given the Name As a String",
+        "text": "chapter_8_classes_r20.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Implementing the Visitor Pattern",
+        "text": "chapter_8_classes_r21.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Implementing the Visitor Pattern Without Recursion",
+        "text": "chapter_8_classes_r22.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Managing Memory in Cyclic Data Structures",
+        "text": "chapter_8_classes_r23.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Making Classes Support Comparison Operations",
+        "text": "chapter_8_classes_r24.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating Cached Instances",
+        "text": "chapter_8_classes_r25.md",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

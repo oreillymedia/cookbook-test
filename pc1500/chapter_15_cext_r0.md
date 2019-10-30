@@ -1,0 +1,1 @@
+This chapter looks at the problem of accessing C code from Python. Many of Python’s built-in libraries are written in C, and accessing C is an important part of making Python talk to existing libraries. It’s also an area that might require the most study if you’re faced with the problem of porting extension code from Python 2 to 3.

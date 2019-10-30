@@ -1,0 +1,75 @@
+{
+  "title": "Python: Nework & Web Programming",
+  "description": "13 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Interacting with HTTP Services As a Client",
+        "text": "chapter_11_network_r1.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Creating a TCP Server",
+        "text": "chapter_11_network_r2.md"
+      },
+      {
+        "title": "Creating a UDP Server",
+        "text": "chapter_11_network_r3.md"
+      },
+      {
+        "title": "Generating a Range of IP Addresses from a CIDR Address",
+        "text": "chapter_11_network_r4.md"
+      },
+      {
+        "title": "Creating a Simple REST-Based Interface",
+        "text": "chapter_11_network_r5.md"
+      },
+      {
+        "title": "Implementing a Simple Remote Procedure Call with XML-RPC",
+        "text": "chapter_11_network_r6.md"
+      },
+      {
+        "title": "Communicating Simply Between Interpreters",
+        "text": "chapter_11_network_r7.md"
+      },
+      {
+        "title": "Implementing Remote Procedure Calls",
+        "text": "chapter_11_network_r8.md"
+      },
+      {
+        "title": "Authenticating Clients Simply",
+        "text": "chapter_11_network_r9.md"
+      },
+      {
+        "title": "Adding SSL to Network Services",
+        "text": "chapter_11_network_r10.md"
+      },
+      {
+        "title": "Passing a Socket File Descriptor Between Processes",
+        "text": "chapter_11_network_r11.md"
+      },
+      {
+        "title": "Understanding Event-Driven I/O",
+        "text": "chapter_11_network_r12.md"
+      },
+      {
+        "title": "Sending and Receiving Large Arrays",
+        "text": "chapter_11_network_r13.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Python: Data Encoding & Processing",
+  "description": "13 Recipes from Python Cookbook, 3rd edition",
+  "difficulty": "Beginner",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Reading and Writing CSV Data",
+        "text": "pc0601.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reading and Writing JSON Data",
+        "text": "pc0602.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Parsing Simple XML Data",
+        "text": "pc0603.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Parsing Huge XML Files Incrementally",
+        "text": "pc0604.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Turning a Dictionary into XML",
+        "text": "pc0605.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Parsing, Modifying, and Rewriting XML",
+        "text": "pc0606.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Parsing XML Documents with Namespaces",
+        "text": "pc0607.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Interacting with a Relational Database",
+        "text": "pc0608.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Decoding and Encoding Hexadecimal Digits",
+        "text": "pc0609.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Decoding and Encoding Base64",
+        "text": "pc0610.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reading and Writing Binary Arrays of Structures",
+        "text": "pc0611.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Reading Nested and Variable-Sized Binary Structures",
+        "text": "pc0612.md",
+        "code": "run-python3.sh"
+      },
+      {
+        "title": "Summarizing Data and Performing Statistics",
+        "text": "pc0613.md",
+        "code": "run-python3.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python"
+  }
+}
