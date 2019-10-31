@@ -12,47 +12,47 @@
       },
       {
         "title": "Patching Objects in Unit Tests",
-        "text": "chapter_14_testing_r2.md",
+        "text": "chapter_14_testing_r2.md"
       },
       {
         "title": "Testing for Exceptional Conditions in Unit Tests",
-        "text": "chapter_14_testing_r3.md",
+        "text": "chapter_14_testing_r3.md"
       },
       {
         "title": "Logging Test Output to a File",
-        "text": "chapter_14_testing_r4.md",
+        "text": "chapter_14_testing_r4.md"
       },
       {
         "title": "Skipping or Anticipating Test Failures",
-        "text": "chapter_14_testing_r5.md",
+        "text": "chapter_14_testing_r5.md"
       },
       {
         "title": "Handling Multiple Exceptions",
-        "text": "chapter_14_testing_r6.md",
+        "text": "chapter_14_testing_r6.md"
       },
       {
         "title": "Catching All Exceptions",
-        "text": "chapter_14_testing_r7.md",
+        "text": "chapter_14_testing_r7.md"
       },
       {
         "title": "Creating Custom Exceptions",
-        "text": "chapter_14_testing_r8.md",
+        "text": "chapter_14_testing_r8.md"
       },
       {
         "title": "Raising an Exception in Response to Another Exception",
-        "text": "chapter_14_testing_r9.md",
+        "text": "chapter_14_testing_r9.md"
       },
       {
         "title": "Reraising the Last Exception",
-        "text": "chapter_14_testing_r10.md",
+        "text": "chapter_14_testing_r10.md"
       },
       {
         "title": "Issuing Warning Messages",
-        "text": "chapter_14_testing_r11.md",
+        "text": "chapter_14_testing_r11.md"
       },
       {
         "title": "Debugging Basic Program Crashes",
-        "text": "chapter_14_testing_r12.md",
+        "text": "chapter_14_testing_r12.md"
       },
       {
         "title": "Profiling and Timing Your Program",
@@ -60,7 +60,7 @@
       },
       {
         "title": "Making Your Programs Run Faster",
-        "text": "chapter_14_testing_r14.md",
+        "text": "chapter_14_testing_r14.md"
       }
     ],
     "intro": {
