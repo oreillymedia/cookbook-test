@@ -7,64 +7,63 @@
     "steps": [
       {
         "title": "Making a Hierarchical Package of Modules",
-        "text": "chapter_10_modules_r1.md",
-        "code": "run-python3.sh"
+        "text": "chapter_10_modules_r1.md"
       },
       {
         "title": "Controlling the Import of Everything",
-        "text": "chapter_10_modules_r2.md",
+        "text": "chapter_10_modules_r2.md"
       },
       {
         "title": "Importing Package Submodules Using Relative Names",
-        "text": "chapter_10_modules_r3.md",
+        "text": "chapter_10_modules_r3.md"
       },
       {
         "title": "Splitting a Module into Multiple Files",
-        "text": "chapter_10_modules_r4.md",
+        "text": "chapter_10_modules_r4.md"
       },
       {
         "title": "Making Separate Directories of Code Import Under a Common Namespace",
-        "text": "chapter_10_modules_r5.md",
+        "text": "chapter_10_modules_r5.md"
       },
       {
         "title": "Reloading Modules",
-        "text": "chapter_10_modules_r6.md",
+        "text": "chapter_10_modules_r6.md"
       },
       {
         "title": "Making a Directory or Zip File Runnable As a Main Script",
-        "text": "chapter_10_modules_r7.md",
+        "text": "chapter_10_modules_r7.md"
       },
       {
         "title": "Reading Datafiles Within a Package",
-        "text": "chapter_10_modules_r8.md",
+        "text": "chapter_10_modules_r8.md"
       },
       {
         "title": "Adding Directories to sys.path",
-        "text": "chapter_10_modules_r9.md",
+        "text": "chapter_10_modules_r9.md"
       },
       {
         "title": "Importing Modules Using a Name Given in a String",
-        "text": "chapter_10_modules_r10.md",
+        "text": "chapter_10_modules_r10.md"
       },
       {
         "title": "Loading Modules from a Remote Machine Using Import Hooks",
-        "text": "chapter_10_modules_r11.md",
+        "text": "chapter_10_modules_r11.md"
       },
       {
         "title": "Patching Modules on Import",
-        "text": "chapter_10_modules_r12.md",
+        "text": "chapter_10_modules_r12.md"
       },
       {
         "title": "Installing Packages Just for Yourself",
-        "text": "chapter_10_modules_r13.md",
+        "text": "chapter_10_modules_r13.md"
       },
       {
         "title": "Creating a New Python Environment",
-        "text": "chapter_10_modules_r14.md",
+        "text": "chapter_10_modules_r14.md"
       },
       {
         "title": "Distributing Packages",
-        "text": "chapter_10_modules_r15.md",
+        "text": "chapter_10_modules_r15.md"
       }
     ],
     "intro": {
