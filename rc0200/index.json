@@ -63,7 +63,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "run-R.sh"
     },
     "finish": {
       "text": "finish.md"
