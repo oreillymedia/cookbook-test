@@ -1,0 +1,78 @@
+{
+  "title": "R: Some Basics",
+  "description": "Recipes from R Cookbook, 2nd edition",
+  "difficulty": "Beginner",
+  "time": "1 hour",
+  "details": {
+    "steps": [
+      {
+        "title": "Printing Something to the Screen",
+        "text": "02_SomeBasics_r1.md"
+      },
+      {
+        "title": "Setting Variables",
+        "text": "02_SomeBasics_r2.md"
+      },
+      {
+        "title": "Listing Variables",
+        "text": "02_SomeBasics_r3.md"
+      },
+      {
+        "title": "Deleting Variables",
+        "text": "02_SomeBasics_r4.md"
+      },
+      {
+        "title": "Creating a Vector",
+        "text": "02_SomeBasics_r5.md"
+      },
+      {
+        "title": "Computing Basic Statistics",
+        "text": "02_SomeBasics_r6.md"
+      },
+      {
+        "title": "Creating Sequences",
+        "text": "02_SomeBasics_r7.md"
+      },
+      {
+        "title": "Comparing Vectors",
+        "text": "02_SomeBasics_r8.md"
+      },
+      {
+        "title": "Selecting Vector Elements",
+        "text": "02_SomeBasics_r9.md"
+      },
+      {
+        "title": "Performing Vector Arithmetic",
+        "text": "02_SomeBasics_r10.md"
+      },
+      {
+        "title": "Getting Operator Precedence Right",
+        "text": "02_SomeBasics_r11.md"
+      },
+      {
+        "title": "Typing Less and Accomplishing More",
+        "text": "02_SomeBasics_r12.md"
+      },
+      {
+        "title": "Creating a Pipeline of Function Calls",
+        "text": "02_SomeBasics_r13.md"
+      },
+      {
+        "title": "Avoiding Some Common Mistakes",
+        "text": "02_SomeBasics_r14.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "rlang"
+  }
+}

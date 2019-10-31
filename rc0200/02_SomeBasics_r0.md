@@ -1,0 +1,1 @@
+The recipes in this chapter lie somewhere between problem-solving ideas and tutorials. Yes, they solve common problems, but the Solutions showcase common techniques and idioms used in most R code, including the code in this cookbook. If you are new to R, we suggest skimming this chapter to acquaint yourself with these idioms.
