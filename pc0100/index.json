@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Unpacking a Sequence into Separate Variables",
-        "text": "pc0101.md",
-        "code": "run-python3.sh"
+        "text": "pc0101.md"
       },
       {
         "title": "Unpacking Elements from Iterables of Arbitrary Length",
@@ -20,92 +19,76 @@
       },
       {
         "title": "Finding the Largest or Smallest N Items",
-        "text": "pc0104.md",
-        "code": "run-python3.sh"
+        "text": "pc0104.md"
       },
       {
         "title": "Implementing a Priority Queue",
-        "text": "pc0105.md",
-        "code": "run-python3.sh"
+        "text": "pc0105.md"
       },
       {
         "title": "Mapping Keys to Multiple Values in a Dictionary",
-        "text": "pc0106.md",
-        "code": "run-python3.sh"
+        "text": "pc0106.md"
       },
       {
         "title": "Keeping Dictionaries in Order",
-        "text": "pc0107.md",
-        "code": "run-python3.sh"
+        "text": "pc0107.md"
       },
       {
         "title": "Calculating with Dictionaries",
-        "text": "pc0108.md",
-        "code": "run-python3.sh"
+        "text": "pc0108.md"
       },
       {
         "title": "Finding Commonalities in Two Dictionaries",
-        "text": "pc0109.md",
-        "code": "run-python3.sh"
+        "text": "pc0109.md"
       },
       {
         "title": "Removing Duplicates from a Sequence while Maintaining Order",
-        "text": "pc0110.md",
-        "code": "run-python3.sh"
+        "text": "pc0110.md"
       },
       {
         "title": "Naming a Slice",
-        "text": "pc0111.md",
-        "code": "run-python3.sh"
+        "text": "pc0111.md"
       },
       {
         "title": "Determining the Most Frequently Occurring Items in a Sequence",
-        "text": "pc0112.md",
-        "code": "run-python3.sh"
+        "text": "pc0112.md"
       },
       {
         "title": "Sorting a List of Dictionaries by a Common Key",
-        "text": "pc0113.md",
-        "code": "run-python3.sh"
+        "text": "pc0113.md"
       },
       {
         "title": "Sorting Objects Without Native Comparison Support",
-        "text": "pc0114.md",
-        "code": "run-python3.sh"
+        "text": "pc0114.md"
       },
       {
         "title": "Grouping Records Together Based on a Field",
-        "text": "pc0115.md",
-        "code": "run-python3.sh"
+        "text": "pc0115.md"
       },
       {
         "title": "Filtering Sequence Elements",
-        "text": "pc0116.md",
-        "code": "run-python3.sh"
+        "text": "pc0116.md"
       },
       {
         "title": "Extracting a Subset of a Dictionary",
-        "text": "pc0117.md",
-        "code": "run-python3.sh"
+        "text": "pc0117.md"
       },
       {
         "title": "Mapping Names to Sequence Elements",
-        "text": "pc0118.md",
-        "code": "run-python3.sh"
+        "text": "pc0118.md"
       },
       {
         "title": "Transforming and Reducing Data at the Same Time",
-        "text": "pc0119.md",
-        "code": "run-python3.sh"
+        "text": "pc0119.md"
       },
       {
         "title": "Combining Multiple Mappings into a Single Mapping",
-        "text": "pc0120.md",
-        "code": "run-python3.sh"
+        "text": "pc0120.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "run-python3.sh"
     },
     "finish": {
       "text": "finish.md"
