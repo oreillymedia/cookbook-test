@@ -42,7 +42,7 @@ R was clever with the last expression (`9:0`). Because 9 is larger than 0, it co
 
 ```
 10:20 %>% mean()
-```{{execute}}
+```
 
 The colon operator works for sequences that grow by 1 only. The `seq` function also builds sequences but supports an optional third argument, which is the increment:
 
