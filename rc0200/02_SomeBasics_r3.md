@@ -22,7 +22,7 @@ ls()
 Notice that `ls` returns a vector of character strings in which each string is the name of one variable or function. When your workspace is empty, `ls` returns an empty vector, which produces this puzzling output:
 
 ```
-ls()
+ls
 
 ```{{execute}}
 
