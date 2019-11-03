@@ -39,9 +39,9 @@ ls()
 
 Alternatively, you could click the broom icon at the top of the Environment pane in RStudio.
 
-![Environment pane in RStudio](/rc0200/assets/rcbk_0201.png)
+![Environment pane in RStudio](/cookbook-test/rc0200/assets/rcbk_0201.png)
 
-Figure 1. Environment pane in RStudio
+Figure 1. Environment pane in RStudio.
 
 Warning
 
