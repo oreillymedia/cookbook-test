@@ -19,16 +19,6 @@ However, if you omit the parentheses, R does not execute the function. Instead, 
 ```
 ls
 
-# > function (name, pos = -1L, envir = as.environment(pos), all.names = FALSE,
-# >     pattern, sorted = TRUE)
-# > {
-# >     if (!missing(name)) {
-# >         pos <- tryCatch(name, error = function(e) e)
-# >         if (inherits(pos, "error")) {
-# >             name <- substitute(name)
-# >             if (!is.character(name))
-# >                 name <- deparse(name)
-# > # etc.
 ```{{execute}}
 
 ##### Mistyping “<-” as “<(space)-”
@@ -43,14 +33,14 @@ If you accidentally insert a space between `<` and `-`, the meaning changes comp
 
 ```
 x < -pi # Oops! We are comparing x instead of setting it!
-#> [1] FALSE
+
 ```{{execute}}
 
 This is now a comparison (`<`) between `x` and `-pi` (negative \\(\\pi\\)). It does not change `x`. If you are lucky, `x` is undefined and R will complain, alerting you that something is fishy:
 
 ```
 x < -pi
-#> Error in eval(expr, envir, enclos): object 'x' not found
+
 ```{{execute}}
 
 If `x` is defined, R will perform the comparison and print a logical value, `TRUE` or `FALSE`. That should alert you that something is wrong, as an assignment does not normally print anything:
@@ -58,7 +48,7 @@ If `x` is defined, R will perform the comparison and print a logical value, `TRU
 ```
 x <- 0 # Initialize x to zero
 x < -pi # Oops!
-#> [1] FALSE
+
 ```{{execute}}
 
 ##### Incorrectly continuing an expression across lines
@@ -69,7 +59,7 @@ R reads your typing until you finish a complete expression, no matter how many l
 total <- 1 + 2 + 3 + # Continued on the next line
   4 + 5
 print(total)
-#> [1] 15
+
 ```{{execute}}
 
 Problems begin when you accidentally finish the expression prematurely, which can easily happen:
@@ -77,9 +67,9 @@ Problems begin when you accidentally finish the expression prematurely, which ca
 ```
 total <- 1 + 2 + 3 # Oops! R sees a complete expression
 + 4 + 5 # This is a new expression; R prints its value
-#> [1] 9
+
 print(total)
-#> [1] 6
+
 ```{{execute}}
 
 There are two clues that something is amiss: R prompted you with a normal prompt (`>`), not the continuation prompt (`+`), and it printed the value of 4 + 5.
@@ -93,10 +83,10 @@ Use the double-equals operator (`==`) for comparisons. If you accidentally use t
 ```
 v <- 1 # Assign 1 to v
 v == 0 # Compare v against zero
-#> [1] FALSE
+
 v = 0 # Assign 0 to v, overwriting previous contents
 print(v)
-#> [1] 0
+
 ```{{execute}}
 
 ##### Writing 1:n+1 when you mean 1:(n+1)
@@ -106,24 +96,24 @@ You might think that `1:n+1` is the sequence of numbers 1, 2, …​, _n_, _n_+1
 ```
 n <- 5
 1:n + 1
-#> [1] 2 3 4 5 6
+
 1:(n + 1)
-#> [1] 1 2 3 4 5 6
+
 ```{{execute}}
 
 ##### Getting bitten by the Recycling Rule
 
-Vector arithmetic and vector comparisons work well when both vectors have the same length. However, the results can be baffling when the operands are vectors of differing lengths. Guard against this possibility by understanding and remembering the Recycling Rule (see [\[recipe-id050\]](#recipe-id050)).
+Vector arithmetic and vector comparisons work well when both vectors have the same length. However, the results can be baffling when the operands are vectors of differing lengths. Guard against this possibility by understanding and remembering the Recycling Rule .
 
 ##### Installing a package but not loading it with library or require
 
-Installing a package is the first step toward using it, but one more step is required. Use `library` or `require` to load the package into your search path. Until you do so, R will not recognize the functions or datasets in the package (see [\[recipe-id013\]](#recipe-id013)):
+Installing a package is the first step toward using it, but one more step is required. Use `library` or `require` to load the package into your search path. Until you do so, R will not recognize the functions or datasets in the package :
 
 ```
 x <- rnorm(100)
 n <- 5
 truehist(x, n)
-#> Error in truehist(x, n): could not find function "truehist"
+
 ```{{execute}}
 
 However, if you load the library first, then the code runs and you get the chart shown in [Example truehist](#histexample):
@@ -135,17 +125,17 @@ truehist(x, n)
 
 We typically use `library` instead of `require`. The reason is that if you create an R script that uses `library` and the desired package is not already installed, R will return an error. In contrast, `require` will simply return `FALSE` if the package is not installed.
 
-![rcbk 0203](images/rcbk_0203.png)
+![truehist example](danf/scenarios/rc0200/assets/rcbk_0203.png)
 
 Figure 3. Example truehist
 
 ##### Writing lst\[n\] when you mean lst\[\[n\]\] or vice versa
 
-If the variable `lst` contains a list, it can be indexed in two ways: lst\[\[\_\_n\_\_\]\] is the _n_th element of the list, whereas lst\[\_\_n\_\_\] is a list whose only element is the _n_th element of `lst`. That’s a big difference. See [\[recipe-id054\]](#recipe-id054).
+If the variable `lst` contains a list, it can be indexed in two ways: lst\[\[\_\_n\_\_\]\] is the _n_th element of the list, whereas lst\[\_\_n\_\_\] is a list whose only element is the _n_th element of `lst`. That’s a big difference.
 
 ##### Using & instead of &&, or vice versa; same for | and ||
 
-Use `&` and `|` in logical expressions involving the logical values `TRUE` and `FALSE`. See [Selecting Vector Elements](#recipe-id039).
+Use `&` and `|` in logical expressions involving the logical values `TRUE` and `FALSE`. 
 
 Use `&&` and `||` for the flow-of-control expressions inside `if` and `while` statements.
 
@@ -161,7 +151,7 @@ Some functions, such as `mean`, take one argument. Other arguments, such as `max
 
 The `max` and `min` functions have multiple arguments and return one value: the maximum or minimum of all their arguments.
 
-The `pmax` and `pmin` functions have multiple arguments but return a vector with values taken element-wise from the arguments. For more info, see [\[recipe-id107\]](#recipe-id107).
+The `pmax` and `pmin` functions have multiple arguments but return a vector with values taken element-wise from the arguments. 
 
 ##### Misusing a function that does not understand data frames
 
@@ -178,14 +168,11 @@ This is because R sees backslashes as special characters. You can get around thi
 ```
 read_csv(`./temp/my_file.csv`)
 read_csv(`.\\temp\\my_file.csv`)
-```{{execute}}
+```
 
 This is only an issue on Windows because both Mac and Linux use forward slashes as path separators.
 
 ##### Posting a question to Stack Overflow or the mailing list before searching for the answer
 
-Don’t waste your time. Don’t waste other people’s time. Before you post a question to a mailing list or to Stack Overflow, do your homework and search the archives. Odds are, someone has already answered your question. If so, you’ll see the answer in the discussion thread for the question. See [\[recipe-id268\]](#recipe-id268).
+Don’t waste your time. Don’t waste other people’s time. Before you post a question to a mailing list or to Stack Overflow, do your homework and search the archives. Odds are, someone has already answered your question. If so, you’ll see the answer in the discussion thread for the question. 
 
-## See Also
-
-See Recipes [#recipe-id268](#recipe-id268), [#recipe-id039](#recipe-id039), [#recipe-id013](#recipe-id013), [#recipe-id050](#recipe-id050), [#recipe-id054](#recipe-id054), and [#recipe-id107](#recipe-id107).
