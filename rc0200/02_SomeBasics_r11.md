@@ -4,7 +4,7 @@ Your R expression is producing a curious result, and you wonder if operator prec
 
 ## Solution
 
-The full list of operators is shown in [Operator precedence](#precedence), listed in order of precedence from highest to lowest. Operators of equal precedence are evaluated from left to right except where indicated.
+The full list of operators is shown in Operator precedence, listed in order of precedence from highest to lowest. Operators of equal precedence are evaluated from left to right except where indicated.
 
 Table 1. Operator precedence  
 
