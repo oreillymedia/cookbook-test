@@ -6,8 +6,24 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "",
+        "text": "ch03_r1.md"
+      },
+      {
+        "title": "",
+        "text": "ch03_r2.md"
+      },
+      {
+        "title": "",
+        "text": "ch03_r3.md"
+      },
+      {
+        "title": "",
+        "text": "ch03_r4.md"
+      },
+      {
+        "title": "",
+        "text": "ch03_r5.md"
       }
     ],
     "intro": {

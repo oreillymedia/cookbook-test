@@ -6,8 +6,36 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "",
+        "text": "ch02_r1.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r2.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r3.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r4.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r5.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r6.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r7.md"
+      },
+      {
+        "title": "",
+        "text": "ch02_r8.md"
       }
     ],
     "intro": {
